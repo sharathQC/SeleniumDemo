@@ -9,7 +9,11 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 
 public class ActionsDemo {
-    public static void main(String args[]) {
+
+    public static void display(){
+        System.out.println("hello world");
+    }
+    public static void main(String args[]) throws InterruptedException {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         WebDriver driver = new ChromeDriver(options);
@@ -30,6 +34,9 @@ public class ActionsDemo {
         //enter some text on search box and select the entered text using double click method
         a.moveToElement(search_box).click().keyDown(Keys.SHIFT).sendKeys("hello").doubleClick().build().perform();
         a.moveToElement(search_box).click().sendKeys(Keys.ENTER).build().perform();
+
+        Thread.sleep(2000);
+        display();
 
 //        search_box.sendKeys("RRR");
 //        search_box.sendKeys(Keys.ENTER);
