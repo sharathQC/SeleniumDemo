@@ -65,5 +65,6 @@ public class HashMapDemo {
             System.out.println(mm.equals(map1));
         }
 
+        System.out.println("=========================");
     }
 }
