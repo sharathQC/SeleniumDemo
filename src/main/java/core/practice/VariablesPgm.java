@@ -34,12 +34,14 @@ public class VariablesPgm extends InterfaceExample{
 
     static {
         System.out.println("this static block pgm, checking which one executes first");
+        System.out.println("this static block pgm, checking which one executes first");
         String country = "India";
         System.out.println("static var: "+a);
 
     }
 
     VariablesPgm(String a1, String b1) {
+        System.out.println("this constructor, checking which one executes first:"+a1+" "+b1);
         System.out.println("this constructor, checking which one executes first:"+a1+" "+b1);
         String city = "Hyd";
         System.out.println("static var: "+a);
@@ -56,12 +58,14 @@ public class VariablesPgm extends InterfaceExample{
         vp1.sum1(10,20);
 
         System.out.println("=====abstract methods of one class defining and calling here=====");
+        System.out.println("=====abstract methods of one class defining and calling here=====");
         vp.display();
         vp.displayOne();
 
     }
 
     public void display(){
+        System.out.println("display method is from abstract class and defining here in other class using extends keyword");
         System.out.println("display method is from abstract class and defining here in other class using extends keyword");
     }
     public void displayOne(){
