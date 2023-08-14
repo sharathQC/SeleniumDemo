@@ -66,6 +66,7 @@ public class VariablesPgm extends InterfaceExample{
     }
     public void displayOne(){
         System.out.println("display method is from abstract class and defining here in other class using extends keyword");
+        System.out.println("display method is from abstract class and defining here in other class using extends keyword");
     }
 
 }

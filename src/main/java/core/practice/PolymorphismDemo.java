@@ -45,6 +45,7 @@ public class PolymorphismDemo {
     }
     public void view(int a, int b, int c, int d, int e){
         System.out.println("sum of two parameters: "+(a+b+c+d+e));
+        System.out.println("sum of two parameters: "+(a+b+c+d+e));
     }
 
 
