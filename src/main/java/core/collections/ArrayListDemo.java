@@ -89,5 +89,10 @@ public class ArrayListDemo {
             System.out.println(itr.next());
         }
 
+        Iterator itr1 = al.iterator();
+        while (itr1.hasNext()){
+            System.out.println(itr.next());
+        }
+
     }
 }
