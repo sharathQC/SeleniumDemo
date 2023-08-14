@@ -24,8 +24,10 @@ public class DemoInterface implements House{
     @Override
     public void construction() {
         System.out.println("Interface>Construction method is difined in demoInterface class "+msg+" "+msg1);
+        System.out.println("Interface>Construction method is difined in demoInterface class "+msg+" "+msg1);
     }
     public void cleaning(){
+        System.out.println("Interface>cleaning method is difining in demointerface class");
         System.out.println("Interface>cleaning method is difining in demointerface class");
     }
 }

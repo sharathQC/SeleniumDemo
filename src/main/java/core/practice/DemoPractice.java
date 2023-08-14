@@ -29,5 +29,6 @@ public class DemoPractice extends GeneralStore{
 
     public void printerShow() {
         System.out.println("Printer Interface>show method---defined in another class");
+        System.out.println("Printer Interface>show method---defined in another class");
     }
 }
